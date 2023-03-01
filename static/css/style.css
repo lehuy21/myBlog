@@ -1,0 +1,483 @@
+body {
+    background-color: rgb(78, 78, 78);
+}
+.header-category {
+    margin-left: 1.2cm;
+    margin-top: -0.5cm;
+    color: white;
+}
+#preface {
+    width: 1.3cm;
+    height: 1.3cm;
+    border: 4px solid rgb(34, 165, 34);
+    text-align: center;
+    /* vertical-align: middle;
+    display: table-cell;  */
+    font-size: 2.5pc;
+}
+
+#reface {
+    margin-left: 1.6cm;
+    margin-top: -86px;
+    font-size: 2pc;
+}
+
+/* list-item */
+.category-information {
+    margin-left: 12cm;
+    margin-top: -67px;
+    font-size: 1.6pc;
+    word-spacing: 1cm;
+
+}
+
+#item-home {
+    color: white;
+}
+#item-ecperience {
+    color: white;
+}
+#item-about {
+    color: white;
+}
+#item-services {
+    color: white;
+}
+#item-portfolio {
+    color: white;
+}
+#item-contact {
+    color: white;
+}
+
+/* home */
+.form-info {
+    width: 29cm;
+    height: 12cm;
+    margin-top: 100px;
+    margin-left: 4cm;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+#designer {
+    color: white;
+}
+/* .form-info-col {
+    width: 29cm;
+    height: 12cm;
+    margin-top: -489px;
+    margin-left: 4cm;
+    background-color: grey;
+    z-index: 2;
+} */
+
+.info-list {
+    margin-left: 5.4cm;
+    margin-top: -450px;
+    word-spacing: 3.3cm;
+    color: white;
+    font-size: 1.4pc;
+}
+
+#line {
+    width: 13cm;
+    margin-left: -0.02cm;
+}
+#name {
+    word-spacing: 0cm;
+    margin-left: 1cm;
+}
+#DOB {
+    word-spacing: 0cm;
+    margin-left: 1cm;
+}
+#phone {
+    word-spacing: 0cm;
+    margin-left: 1cm;
+}
+#address {
+    word-spacing: 0cm;
+    margin-left: 0.7cm;
+}
+#email {
+    word-spacing: 0cm;
+    margin-left: 1.2cm;
+}
+#website {
+    word-spacing: 0cm;
+    margin-left: 0.8cm;
+}
+
+.image-cuong {
+    width: 8cm;
+    height: 10cm;
+    margin-left: 22cm;
+    margin-top: -8.5cm;
+    border-radius: 10px;
+}
+
+.background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* width: 38.1cm;
+    height: 19.1cm; */
+    width: 100%;
+    height: 100%;
+    size: 10cm;
+    z-index: -1;
+}
+/* about */
+.about-us-info {
+    /* width: 38.1cm; */
+    width: 100%;
+    height: 15cm;
+    background-color: whitesmoke;
+    margin-top: 1cm;
+    margin-left: -0.2cm;
+    position: absolute;
+    z-index: -1;
+}
+/* .animate-fading{width:100%; animation:fading 4s infinite}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}} */
+/* .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+ /* Positioning Images */
+ /* .carousel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: none;
+    transition: all 0.9s;
+    left: -100%;
+    z-index: 1;
+ }
+
+
+ 
+ .carousel-indicator:checked ~ .carousel-image {
+    left: 100%;
+ }
+ 
+ .carousel-indicator:checked + .carousel-image {
+    left: 0;
+    display: inline-block;
+ }
+ .carousel {
+    text-align: center;
+    word-spacing: 12px;
+    padding-top: 54%;
+    overflow-x: hidden;
+    position: relative;
+    background-color: lightgray;
+ 
+    display: block;
+    width: 100%;
+    padding-top: 56%;
+ } */
+ 
+/* .carousel-indicator {
+    position: relative;
+    bottom: 24px;
+    z-index: 2;
+}  */
+
+#image-about {
+    width: 19.05cm;
+    height:15cm;
+    margin-top: 1cm;
+    margin-left: -0.2cm;
+}
+.text-about-us {
+    width: 14.7cm;
+    height: 10.5cm;
+    /* margin-top: -11.5cm; */
+    margin-top: 2cm;
+    margin-left: 20cm;
+    background-color: whitesmoke;
+    line-height: 0.77cm;
+    color: rgb(102, 102, 102);
+}
+/* service */
+.background-service {
+    width: 100%;
+    height: 20cm;
+    margin-top: 1cm;
+    /* margin-left: -0.18cm; */
+    background-color: white;
+    opacity: 1;
+}
+#line-service {
+    width: 10cm;
+    margin-top: -1cm;
+    margin-left: 13.7cm;
+    height: 0.01cm;
+    background-color: black;
+    border: 2px solid black;
+}
+#line-service-2 {
+    width: 4cm;
+    margin-top: -0.47cm;
+    margin-left: 16.6cm;
+    height: 0.3cm;
+    background-color: blue;
+    border: 2px solid blue;
+}
+#circle-1 {
+    width: 2cm;
+    height: 2cm;
+    margin-top: 3cm;
+    margin-left: 5cm;
+    background-color: black;
+    border-radius: 100px;
+}
+#circle-2 {
+    width: 2cm;
+    height: 2cm;
+    background-color: black;
+    border-radius: 100px;
+    margin-left: 2cm;
+}
+#circle-3 {
+    width: 2cm;
+    height: 2cm;
+    background-color: black;
+    border-radius: 100px;
+    margin-left: 4cm;
+}
+#circle-4 {
+    width: 2cm;
+    height: 2cm;
+    background-color: black;
+    border-radius: 100px;
+    margin-left: 6cm;
+}
+
+/* Contact */
+/* .background-contact {
+    width: 38.1cm;
+    height: 30cm;
+    margin-top: 1cm;
+    margin-left: -0.18cm;
+    background-color: white;
+    opacity: 0;
+} */
+
+.contact-form-text {
+    text-align: center;
+    margin-top: 1cm;
+    font-size: 1.5pc;
+}
+
+#line-contact {
+    width: 10cm;
+    margin-top: 1cm;
+    margin-left: 13.6cm;
+    height: 0.01cm;
+    background-color: black;
+    border: 2px solid black;
+}
+#line-contact-2 {
+    width: 4cm;
+    margin-top: -0.58cm;
+    margin-left: 16.76cm;
+    height: 0.3cm;
+    background-color: blue;
+    border: 2px solid blue;
+}
+
+.box-contact {
+    width: 14cm;
+    height: 21cm;
+    margin-top: 1cm;
+    margin-left: 4.5cm;
+    background-color: white;
+}
+.box-contact-form {
+    width: 14cm;
+    height: 21cm;
+    margin-left: 19cm;
+    margin-top: -21cm;
+    background-color: white;
+}
+
+.bi-envelope-fill-email {
+    color: aqua;
+    width: 1cm;
+    height: 1cm;
+    fill: currentColor;
+    margin-top: 1cm;
+    margin-left: 6.7cm;
+}
+.image-contact-background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 38.1cm;
+    height: 30cm;
+    z-index: -1;
+}
+.bi-telephone-fill-phone {
+    color: aqua;
+    width: 1cm;
+    height: 1cm;
+    fill: currentColor;
+    margin-top: 1cm;
+    margin-left: 6.7cm;
+}
+.bi-house-door-fill-home {
+    color: aqua;
+    width: 1cm;
+    height: 1cm;
+    fill: currentColor;
+    margin-top: 1cm;
+    margin-left: 6.7cm;
+}
+#name-contact {
+    width: 10cm;
+    height: 1cm;
+    margin-left: 1.9cm;
+    margin-top: 1cm;
+    border: 2px solid rgb(127, 161, 77);
+}
+#email-contact {
+    width: 10cm;
+    height: 1cm;
+    margin-left: 1.9cm;
+    margin-top: 1cm;
+    border: 2px solid rgb(127, 161, 77);
+}
+#phone-contact {
+    width: 10cm;
+    height: 1cm;
+    margin-left: 1.9cm;
+    margin-top: 1cm;
+    border: 2px solid rgb(127, 161, 77);
+}
+#birthday-contact {
+    width: 10cm;
+    height: 1cm;
+    margin-left: 1.9cm;
+    margin-top: 1cm;
+    border: 2px solid rgb(127, 161, 77);
+}
+#address-contact {
+    width: 10cm;
+    height: 1cm;
+    margin-left: 1.9cm;
+    margin-top: 1cm;
+    border: 2px solid rgb(127, 161, 77);
+}
+#message-contact {
+    width: 10cm;
+    height: 4cm;
+    margin-left: 1.9cm;
+    margin-top: 1cm;
+    border: 2px solid rgb(127, 161, 77);
+}
+#button {
+    width: 3.5cm;
+    height: 1.5cm;
+    margin-left: 1.9cm;
+    margin-top: 1cm;
+    background-color: black;
+    color: white;
+    font-size: 1.3pc;
+}
+
+.more-contact {
+    text-align: center;
+    color: white;
+}
+/* adhjsfjsfjdvf */
+/* .lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -4px 0 0 -4px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
